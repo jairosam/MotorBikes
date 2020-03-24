@@ -1,0 +1,468 @@
+* {
+	padding: 0;
+	margin: 0;
+  }
+  body{
+	  font-family: 'Roboto Condensed', sans-serif;
+  }
+  /*Agregamos margenes inferiores a los parrafos*/
+  p {
+	margin-bottom: 20px;
+  }
+  .cabecera{
+	padding-top: 0px;
+	width: 100%;
+	height: 150px;
+	background-image: url(fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 1900px 150px;
+  }
+  header {
+	background: rgba(0,0,0,0.9);
+	width: 60%;
+	margin-left: 20%;
+	z-index: 200;
+	position: fixed;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+  }
+  div h1{
+	background: black;
+	width:100%;
+	height:50px;
+	margin-top: 0px;
+  }
+  h1{
+	color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	
+  }
+  .titulo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 10px;
+}
+  nav {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+  }
+   
+  nav ul {
+	list-style: none;
+	overflow: hidden; /* Limpiamos errores de float */
+  }
+   
+  nav ul li {
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+  }
+   
+  nav ul li a {
+	display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+  }
+   
+  nav ul li:hover {
+	background:#C40000;
+  }
+  .contenido {
+	padding-top: 0px;
+	width: 100%;
+	margin: auto;
+	overflow:hidden;
+  }
+
+.servicioCliente{
+	margin-top: 80px;
+	width: 100%;
+	height: 800px;
+}
+button{
+	border-style: none;
+	position: absolute;
+	padding: 10px; /*espacio alrededor texto*/
+	background-color:  rgba(0, 0, 0, 0.4); /*color botón*/
+	color: black; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Roboto Condensed', sans-serif; /*tipografía texto*/
+	border-radius: 5px; /*bordes redondos*/
+	font-weight: bold;
+	font-size:15px ;
+}
+.btnRegistrarCliente{
+	margin-left: 130px;
+	margin-top: 10px;
+}
+  .registrarCliente{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 750px;
+	width: 400px;
+	height: 320px;
+	background-color: rgba(0, 0, 0, 0.6);
+  }
+
+ .registrarCliente h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+  }
+  h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	
+  }
+  p{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	margin:20px;
+	letter-spacing: 3px;
+  }
+  label{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	margin-left: 170px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+  }
+  input{
+	width: 280px;
+	margin-left: 60px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+  }
+  .infoCliente{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 150px;
+	margin-top: 0px;
+	width: 550px;
+	height: 250px;
+  }
+  .infoCliente h2{
+	color: #C40000;
+	text-transform: uppercase;
+    letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0px;
+  }
+div .imagenMotociclista{
+	position: absolute;
+	margin-top:350px;
+	margin-left: 650px;
+}
+.registrarMoto{
+	position: absolute;
+	border-radius: 10px;
+	margin-top:450px;
+	margin-left: 200px;
+	width: 400px;
+	height: 320px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.registrarMoto h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+}
+.documentoDueno{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	margin-left: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.botonRegistrarMoto{
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.tituloServicioTec{
+	margin-top: 80px;
+}
+.servicioTecnico{
+	margin-top: 80px;
+	width: 100%;
+	height: 760px;
+}
+.imagenTecnico{
+	position: absolute;
+	margin-left: 200px;
+	margin-top:164px ;
+}
+.registrarServicio{
+	position: absolute;
+	border-radius: 10px;
+	margin-left:700px;
+	width: 400px;
+	height: 750px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.registrarServicio h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+}
+.infoServicio{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 200px;
+	margin-top: 0px;
+	width: 400px;
+	height: 250px;
+  }
+  .infoServicio h2{
+	color: #C40000;
+	text-transform: uppercase;
+    letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0px;
+  }
+  .infoServicio p{
+	text-align: center;
+  }
+.btnRegistrarServicio{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.btnImprimirRecibo{
+	border-style: none;
+	position: absolute;
+	padding: 10px; /*espacio alrededor texto*/
+	background-color:  rgba(0, 0, 0, 0.4); /*color botón*/
+	color: black; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Roboto Condensed', sans-serif; /*tipografía texto*/
+	border-radius: 5px; /*bordes redondos*/
+	font-weight: bold;
+	font-size:15px ;
+	margin-left: 230px;
+	margin-top: 10px;
+}
+.lblIDServicio{
+ 	margin-left: 150px;
+}
+.lblPlacas{
+	margin-left: 110px;
+}
+.lblIDEmpleado{
+	margin-left: 145px;
+}
+.lblDescripcion{
+	margin-left: 20px;
+}
+.lblFecha{
+	margin-left: 110px;
+}
+.lblPrecio{
+	margin-left: 100px;
+}
+.descripcion{
+	width: 280px;
+	height: 100px;
+}
+.tituloRepuestos{
+	margin-top: 80px;
+}
+.repuestos{
+	margin-top: 80px;
+	width: 100%;
+	height: 850px;
+}
+div .imagenLlanta{
+	position: absolute;
+	margin-top:70px;
+	margin-left: 300px;
+}
+.aumentarStock{
+	position: absolute;
+	border-radius: 10px;
+	margin-left:200px;
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.disminuirStock{
+	position: absolute;
+	border-radius: 10px;
+	margin-left:200px;
+	margin-top: 450px;
+	width: 400px;
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.aumentarStock h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+}
+.disminuirStock h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+}
+.btnAumentarStock{
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.btnDisminuirStock{
+	margin-left: 170px;
+	margin-top: 10px;
+}
+.idRepuesto{
+	margin-left:140px;
+}
+.idServicio{
+	margin-left:150px;
+}
+.tituloInventario{
+	margin-top: 80px;
+}
+.inventario{
+	width: 100%;
+	height: 400px;
+}
+.repuestosDisponibles{
+	position: absolute;
+	border-radius: 10px;
+	margin-left:400px;
+	width: 600px;
+	height: 400px;
+}
+.repuestosDisponibles h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+}
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #3f3f3f;
+	border-bottom: solid 5px rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+	text-align: center;
+}
+.info{
+	background-color: darkred;
+	width: 100%;
+	height: 230px;
+}
+.info h2{
+	text-transform: uppercase;
+    letter-spacing: 3px;
+	font-size: 17px;
+	text-align: center;
+	padding-top: 20px;
+}
+.recibo{
+	width: 100%;
+	height: 800px;
+}
+.consultarServicio{
+	position: absolute;
+	border-radius: 10px;
+	margin-left:200px;
+	margin-top: 50px;
+	width: 400px;
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.consultarServicio h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+}
+.btnConsultarServicio{
+	margin-left: 170px;
+	margin-top: 10px;
+}
+.imprimirRecibo{
+	position: absolute;
+	border-radius: 10px;
+	margin-left:750px;
+	margin-top: 50px;
+	width: 400px;
+	height: 580px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.imprimirRecibo h2{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: black;
+	width:100%;
+	height:50px;
+	margin-bottom:15px ;
+}
+.btnImprimir{
+	margin-left: 160px;
+	margin-top: 10px;
+}
