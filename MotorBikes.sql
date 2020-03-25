@@ -22,8 +22,6 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
-create database MotorBikes;
-
 --
 -- Estructura de tabla para la tabla `Cliente`
 --
