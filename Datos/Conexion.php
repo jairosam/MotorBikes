@@ -7,7 +7,7 @@
 		private $server;
 		private $dbName;
 
-		public $conecta;
+		public $conexion;
 
         public function __construct(){
 			$this->user = "root";
